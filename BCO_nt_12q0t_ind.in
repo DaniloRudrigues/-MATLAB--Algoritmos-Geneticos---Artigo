@@ -1,0 +1,28 @@
+11 analysis_components
+
+sim_BCO_ntop_12q0t_sr_CASO_BASE.tpl							AC_1
+C:\4CASOS\CASO_BASE\simulacoes		AC_2
+7										AC_3
+5										AC_4
+0										AC_5
+24										AC_6
+5000										AC_7
+5750										AC_8
+1										AC_9
+1										AC_10
+templateReport.tpl								AC_11
+
+LEGENDA
+
+AC_1  - template do arquivo de entrada para o imex
+AC_2  - diretorio onde estao os arquivos e onde sera feita as rodadas
+AC_3  - numero de pocos produtores
+AC_4  - numero de pocos injetores
+AC_5  - Numero de intervalos de tempo
+AC_6  - tempo de concessao do reservatorio
+AC_7  - somatorio das vazoes nos pocos produtores
+AC_8  - somatorio das vazoes nos pocos injetores
+AC_9  - 0- topadao; 1- nao topado
+AC_10 - 0- t_cte; 1- t_var
+AC_11 - template do arquivo de entrada para o results report
+
